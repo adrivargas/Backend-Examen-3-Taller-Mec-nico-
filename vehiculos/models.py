@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class Vehiculo(models.Model):
     placa = models.CharField(max_length=10, unique=True)
     marca = models.CharField(max_length=100)
